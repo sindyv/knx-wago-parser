@@ -1,0 +1,2685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://www.plcopen.org/xml/tc6_0200">
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP19 Patch 2" creationDateTime="2024-10-03T10:19:48.2662044" />
+  <contentHeader name="Untitled1.project" modificationDateTime="2024-10-03T10:12:01.335834">
+    <coordinateInfo>
+      <fbd>
+        <scaling x="1" y="1" />
+      </fbd>
+      <ld>
+        <scaling x="1" y="1" />
+      </ld>
+      <sfc>
+        <scaling x="1" y="1" />
+      </sfc>
+    </coordinateInfo>
+    <addData>
+      <data name="http://www.3s-software.com/plcopenxml/projectinformation" handleUnknown="implementation">
+        <ProjectInformation />
+      </data>
+    </addData>
+  </contentHeader>
+  <types>
+    <dataTypes />
+    <pous>
+          <pou name="KNX_1" pouType="program">
+            <interface>
+              <localVars>
+    
+                        <variable name="M1_001_266_1_RMA6003_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_002_282_RMA6005_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_003_266_2_RMA6006_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_004_266_3_RMA6007_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_005_266_4_RMA6010_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_006_266_4_RMA6011_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_007_266_5_RMA6012_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_008_284_RMA6013_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_009_285_RMA6014_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_010_266_6_RMA6018_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_011_266_6_RMA6019_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_012_287_RMA6020_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_013_266_7_RMA6021_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_014_288_RMA6023_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_015_266_3_RBB6008_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_016_201_RBB6026_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_017_201_RBB6027_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_018_201_RBB6028_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_019_201_RMA6024_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_020_266_1_RMA6003_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_021_282_RMA6005_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_022_266_2_RMA6006_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_023_266_3_RMA6007_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_024_266_4_RMA6010_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_025_266_4_RMA6011_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_026_266_5_RMA6012_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_027_284_RMA6013_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_028_285_RMA6014_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_029_266_6_RMA6018_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_030_266_6_RMA6019_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_031_287_RMA6020_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_032_266_7_RMA6021_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_033_288_RMA6023_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_034_266_1_RMA6003_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_035_282_RMA6005_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_036_266_2_RMA6006_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_037_266_3_RMA6007_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_038_266_4_RMA6010_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_039_266_4_RMA6011_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_040_266_5_RMA6012_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_041_284_RMA6013_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_042_285_RMA6014_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_043_266_6_RMA6018_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_044_266_6_RMA6019_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_045_287_RMA6020_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_046_266_7_RMA6021_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_047_288_RMA6023_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_048_288_KAB6001_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_049_288_KAB6001_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_050_266_7_KAB6002_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_051_266_7_KAB6002_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_052_266_7_KAB6003_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_053_266_7_KAB6003_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_054_266_7_KAB6004_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_055_266_7_KAB6004_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_056_266_7_KAB6005_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_057_266_7_KAB6005_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_058_266_6_KAB6006_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_059_266_6_KAB6006_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_060_266_6_KAB6007_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_061_266_6_KAB6007_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_062_266_6_KAB6008_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_063_266_6_KAB6008_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_064_266_5_KAB6009_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_065_266_5_KAB6009_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_066_266_5_KAB6010_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_067_266_5_KAB6010_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_068_266_5_KAB6011_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_069_266_5_KAB6011_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_070_266_4_KAB6012_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_071_266_4_KAB6012_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_072_266_4_KAB6013_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_073_266_4_KAB6013_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_074_266_4_KAB6014_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_075_266_4_KAB6014_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_076_266_3_KAB6015_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_077_266_3_KAB6015_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_078_266_3_KAB6016_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_079_266_3_KAB6016_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_080_266_3_KAB6017_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_081_266_3_KAB6017_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_082_266_2_KAB6018_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_083_266_2_KAB6018_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_084_266_2_KAB6019_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_085_266_2_KAB6019_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_086_287_KAB6020_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_087_287_KAB6020_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_088_282_KAB6025_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_089_282_KAB6025_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_090_266_1_KAB6026_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M1_091_266_1_KAB6026_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+              </localVars>
+            </interface>
+            <body>
+              <ST>
+                <xhtml xmlns="http://www.w3.org/1999/xhtml">
+    
+        M1_001_266_1_RMA6003_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 1, 
+            typDPT        := PersistentVars.typDPT[1][1], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_1.0);
+        
+        M1_002_282_RMA6005_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 2, 
+            typDPT        := PersistentVars.typDPT[1][2], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom282.0);
+        
+        M1_003_266_2_RMA6006_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 3, 
+            typDPT        := PersistentVars.typDPT[1][3], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_2.0);
+        
+        M1_004_266_3_RMA6007_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 4, 
+            typDPT        := PersistentVars.typDPT[1][4], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_3.0);
+        
+        M1_005_266_4_RMA6010_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 5, 
+            typDPT        := PersistentVars.typDPT[1][5], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_4.0);
+        
+        M1_006_266_4_RMA6011_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 6, 
+            typDPT        := PersistentVars.typDPT[1][6], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_4.0);
+        
+        M1_007_266_5_RMA6012_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 7, 
+            typDPT        := PersistentVars.typDPT[1][7], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_5.0);
+        
+        M1_008_284_RMA6013_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 8, 
+            typDPT        := PersistentVars.typDPT[1][8], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom284.0);
+        
+        M1_009_285_RMA6014_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 9, 
+            typDPT        := PersistentVars.typDPT[1][9], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom285.0);
+        
+        M1_010_266_6_RMA6018_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 10, 
+            typDPT        := PersistentVars.typDPT[1][10], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_6.0);
+        
+        M1_011_266_6_RMA6019_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 11, 
+            typDPT        := PersistentVars.typDPT[1][11], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_6.0);
+        
+        M1_012_287_RMA6020_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 12, 
+            typDPT        := PersistentVars.typDPT[1][12], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom287.0);
+        
+        M1_013_266_7_RMA6021_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 13, 
+            typDPT        := PersistentVars.typDPT[1][13], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_7.0);
+        
+        M1_014_288_RMA6023_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 14, 
+            typDPT        := PersistentVars.typDPT[1][14], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom288.0);
+        
+        M1_015_266_3_RBB6008_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 15, 
+            typDPT        := PersistentVars.typDPT[1][15], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom266_3.0);
+        
+        M1_016_201_RBB6026_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 16, 
+            typDPT        := PersistentVars.typDPT[1][16], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom201.0);
+        
+        M1_017_201_RBB6027_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 17, 
+            typDPT        := PersistentVars.typDPT[1][17], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom201.0);
+        
+        M1_018_201_RBB6028_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 18, 
+            typDPT        := PersistentVars.typDPT[1][18], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom201.0);
+        
+        M1_019_201_RMA6024_MOV_ACT(
+            bPortKNX      := 1, 
+            dwIndex_DPT   := 19, 
+            typDPT        := PersistentVars.typDPT[1][19], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom201.0);
+        
+        M1_020_266_1_RMA6003_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 20,
+            typDPT        := PersistentVars.typDPT[1][20],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_1.Temp := C_5640_002_RMA6003_TMP_ACT_R0266_1.rValue_Out;
+        
+        M1_021_282_RMA6005_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 21,
+            typDPT        := PersistentVars.typDPT[1][21],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom282.Temp := C_5640_002_RMA6005_TMP_ACT_R0282.rValue_Out;
+        
+        M1_022_266_2_RMA6006_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 22,
+            typDPT        := PersistentVars.typDPT[1][22],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_2.Temp := C_5640_002_RMA6006_TMP_ACT_R0266_2.rValue_Out;
+        
+        M1_023_266_3_RMA6007_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 23,
+            typDPT        := PersistentVars.typDPT[1][23],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_3.Temp := C_5640_002_RMA6007_TMP_ACT_R0266_3.rValue_Out;
+        
+        M1_024_266_4_RMA6010_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 24,
+            typDPT        := PersistentVars.typDPT[1][24],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_4.Temp := C_5640_002_RMA6010_TMP_ACT_R0266_4.rValue_Out;
+        
+        M1_025_266_4_RMA6011_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 25,
+            typDPT        := PersistentVars.typDPT[1][25],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_4.Temp := C_5640_002_RMA6011_TMP_ACT_R0266_4.rValue_Out;
+        
+        M1_026_266_5_RMA6012_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 26,
+            typDPT        := PersistentVars.typDPT[1][26],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_5.Temp := C_5640_002_RMA6012_TMP_ACT_R0266_5.rValue_Out;
+        
+        M1_027_284_RMA6013_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 27,
+            typDPT        := PersistentVars.typDPT[1][27],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom284.Temp := C_5640_002_RMA6013_TMP_ACT_R0284.rValue_Out;
+        
+        M1_028_285_RMA6014_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 28,
+            typDPT        := PersistentVars.typDPT[1][28],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom285.Temp := C_5640_002_RMA6014_TMP_ACT_R0285.rValue_Out;
+        
+        M1_029_266_6_RMA6018_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 29,
+            typDPT        := PersistentVars.typDPT[1][29],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_6.Temp := C_5640_002_RMA6018_TMP_ACT_R0266_6.rValue_Out;
+        
+        M1_030_266_6_RMA6019_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 30,
+            typDPT        := PersistentVars.typDPT[1][30],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_6.Temp := C_5640_002_RMA6019_TMP_ACT_R0266_6.rValue_Out;
+        
+        M1_031_287_RMA6020_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 31,
+            typDPT        := PersistentVars.typDPT[1][31],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom287.Temp := C_5640_002_RMA6020_TMP_ACT_R0287.rValue_Out;
+        
+        M1_032_266_7_RMA6021_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 32,
+            typDPT        := PersistentVars.typDPT[1][32],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_7.Temp := C_5640_002_RMA6021_TMP_ACT_R0266_7.rValue_Out;
+        
+        M1_033_288_RMA6023_TMP_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 33,
+            typDPT        := PersistentVars.typDPT[1][33],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom288.Temp := C_5640_002_RMA6023_TMP_ACT_R0288.rValue_Out;
+        
+        M1_034_266_1_RMA6003_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 34,
+            typDPT        := PersistentVars.typDPT[1][34],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_1.Co2 := C_5640_002_RMA6003_CO2_ACT_R0266_1.rValue_Out;
+        
+        M1_035_282_RMA6005_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 35,
+            typDPT        := PersistentVars.typDPT[1][35],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom282.Co2 := C_5640_002_RMA6005_CO2_ACT_R0282.rValue_Out;
+        
+        M1_036_266_2_RMA6006_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 36,
+            typDPT        := PersistentVars.typDPT[1][36],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_2.Co2 := C_5640_002_RMA6006_CO2_ACT_R0266_2.rValue_Out;
+        
+        M1_037_266_3_RMA6007_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 37,
+            typDPT        := PersistentVars.typDPT[1][37],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_3.Co2 := C_5640_002_RMA6007_CO2_ACT_R0266_3.rValue_Out;
+        
+        M1_038_266_4_RMA6010_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 38,
+            typDPT        := PersistentVars.typDPT[1][38],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_4.Co2 := C_5640_002_RMA6010_CO2_ACT_R0266_4.rValue_Out;
+        
+        M1_039_266_4_RMA6011_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 39,
+            typDPT        := PersistentVars.typDPT[1][39],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_4.Co2 := C_5640_002_RMA6011_CO2_ACT_R0266_4.rValue_Out;
+        
+        M1_040_266_5_RMA6012_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 40,
+            typDPT        := PersistentVars.typDPT[1][40],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_5.Co2 := C_5640_002_RMA6012_CO2_ACT_R0266_5.rValue_Out;
+        
+        M1_041_284_RMA6013_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 41,
+            typDPT        := PersistentVars.typDPT[1][41],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom284.Co2 := C_5640_002_RMA6013_CO2_ACT_R0284.rValue_Out;
+        
+        M1_042_285_RMA6014_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 42,
+            typDPT        := PersistentVars.typDPT[1][42],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom285.Co2 := C_5640_002_RMA6014_CO2_ACT_R0285.rValue_Out;
+        
+        M1_043_266_6_RMA6018_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 43,
+            typDPT        := PersistentVars.typDPT[1][43],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_6.Co2 := C_5640_002_RMA6018_CO2_ACT_R0266_6.rValue_Out;
+        
+        M1_044_266_6_RMA6019_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 44,
+            typDPT        := PersistentVars.typDPT[1][44],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_6.Co2 := C_5640_002_RMA6019_CO2_ACT_R0266_6.rValue_Out;
+        
+        M1_045_287_RMA6020_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 45,
+            typDPT        := PersistentVars.typDPT[1][45],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom287.Co2 := C_5640_002_RMA6020_CO2_ACT_R0287.rValue_Out;
+        
+        M1_046_266_7_RMA6021_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 46,
+            typDPT        := PersistentVars.typDPT[1][46],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom266_7.Co2 := C_5640_002_RMA6021_CO2_ACT_R0266_7.rValue_Out;
+        
+        M1_047_288_RMA6023_CO2_ACT(
+            bPortKNX      := 1,
+            dwIndex_DPT   := 47,
+            typDPT        := PersistentVars.typDPT[1][47],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom288.Co2 := C_5640_002_RMA6023_CO2_ACT_R0288.rValue_Out;
+        
+        M1_048_288_KAB6001_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 48, 
+            typDPT			  := PersistentVars.typDPT[1][48],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6001_CV_R0288.IOUT.rValue,
+            );
+            
+        M1_049_288_KAB6001_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 49, 
+            typDPT			  := PersistentVars.typDPT[1][49],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6001_POS_ACT_R0288.xIN := M1_049_288_KAB6001_POS_ACT.xTimeout;
+            
+        M1_050_266_7_KAB6002_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 50, 
+            typDPT			  := PersistentVars.typDPT[1][50],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6002_CV_R0266_7.IOUT.rValue,
+            );
+            
+        M1_051_266_7_KAB6002_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 51, 
+            typDPT			  := PersistentVars.typDPT[1][51],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6002_POS_ACT_R0266_7.xIN := M1_051_266_7_KAB6002_POS_ACT.xTimeout;
+            
+        M1_052_266_7_KAB6003_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 52, 
+            typDPT			  := PersistentVars.typDPT[1][52],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6003_CV_R0266_7.IOUT.rValue,
+            );
+            
+        M1_053_266_7_KAB6003_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 53, 
+            typDPT			  := PersistentVars.typDPT[1][53],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6003_POS_ACT_R0266_7.xIN := M1_053_266_7_KAB6003_POS_ACT.xTimeout;
+            
+        M1_054_266_7_KAB6004_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 54, 
+            typDPT			  := PersistentVars.typDPT[1][54],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6004_CV_R0266_7.IOUT.rValue,
+            );
+            
+        M1_055_266_7_KAB6004_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 55, 
+            typDPT			  := PersistentVars.typDPT[1][55],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6004_POS_ACT_R0266_7.xIN := M1_055_266_7_KAB6004_POS_ACT.xTimeout;
+            
+        M1_056_266_7_KAB6005_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 56, 
+            typDPT			  := PersistentVars.typDPT[1][56],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6005_CV_R0266_7.IOUT.rValue,
+            );
+            
+        M1_057_266_7_KAB6005_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 57, 
+            typDPT			  := PersistentVars.typDPT[1][57],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6005_POS_ACT_R0266_7.xIN := M1_057_266_7_KAB6005_POS_ACT.xTimeout;
+            
+        M1_058_266_6_KAB6006_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 58, 
+            typDPT			  := PersistentVars.typDPT[1][58],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6006_CV_R0266_6.IOUT.rValue,
+            );
+            
+        M1_059_266_6_KAB6006_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 59, 
+            typDPT			  := PersistentVars.typDPT[1][59],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6006_POS_ACT_R0266_6.xIN := M1_059_266_6_KAB6006_POS_ACT.xTimeout;
+            
+        M1_060_266_6_KAB6007_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 60, 
+            typDPT			  := PersistentVars.typDPT[1][60],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6007_CV_R0266_6.IOUT.rValue,
+            );
+            
+        M1_061_266_6_KAB6007_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 61, 
+            typDPT			  := PersistentVars.typDPT[1][61],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6007_POS_ACT_R0266_6.xIN := M1_061_266_6_KAB6007_POS_ACT.xTimeout;
+            
+        M1_062_266_6_KAB6008_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 62, 
+            typDPT			  := PersistentVars.typDPT[1][62],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6008_CV_R0266_6.IOUT.rValue,
+            );
+            
+        M1_063_266_6_KAB6008_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 63, 
+            typDPT			  := PersistentVars.typDPT[1][63],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6008_POS_ACT_R0266_6.xIN := M1_063_266_6_KAB6008_POS_ACT.xTimeout;
+            
+        M1_064_266_5_KAB6009_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 64, 
+            typDPT			  := PersistentVars.typDPT[1][64],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6009_CV_R0266_5.IOUT.rValue,
+            );
+            
+        M1_065_266_5_KAB6009_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 65, 
+            typDPT			  := PersistentVars.typDPT[1][65],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6009_POS_ACT_R0266_5.xIN := M1_065_266_5_KAB6009_POS_ACT.xTimeout;
+            
+        M1_066_266_5_KAB6010_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 66, 
+            typDPT			  := PersistentVars.typDPT[1][66],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6010_CV_R0266_5.IOUT.rValue,
+            );
+            
+        M1_067_266_5_KAB6010_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 67, 
+            typDPT			  := PersistentVars.typDPT[1][67],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6010_POS_ACT_R0266_5.xIN := M1_067_266_5_KAB6010_POS_ACT.xTimeout;
+            
+        M1_068_266_5_KAB6011_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 68, 
+            typDPT			  := PersistentVars.typDPT[1][68],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6011_CV_R0266_5.IOUT.rValue,
+            );
+            
+        M1_069_266_5_KAB6011_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 69, 
+            typDPT			  := PersistentVars.typDPT[1][69],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6011_POS_ACT_R0266_5.xIN := M1_069_266_5_KAB6011_POS_ACT.xTimeout;
+            
+        M1_070_266_4_KAB6012_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 70, 
+            typDPT			  := PersistentVars.typDPT[1][70],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6012_CV_R0266_4.IOUT.rValue,
+            );
+            
+        M1_071_266_4_KAB6012_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 71, 
+            typDPT			  := PersistentVars.typDPT[1][71],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6012_POS_ACT_R0266_4.xIN := M1_071_266_4_KAB6012_POS_ACT.xTimeout;
+            
+        M1_072_266_4_KAB6013_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 72, 
+            typDPT			  := PersistentVars.typDPT[1][72],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6013_CV_R0266_4.IOUT.rValue,
+            );
+            
+        M1_073_266_4_KAB6013_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 73, 
+            typDPT			  := PersistentVars.typDPT[1][73],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6013_POS_ACT_R0266_4.xIN := M1_073_266_4_KAB6013_POS_ACT.xTimeout;
+            
+        M1_074_266_4_KAB6014_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 74, 
+            typDPT			  := PersistentVars.typDPT[1][74],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6014_CV_R0266_4.IOUT.rValue,
+            );
+            
+        M1_075_266_4_KAB6014_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 75, 
+            typDPT			  := PersistentVars.typDPT[1][75],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6014_POS_ACT_R0266_4.xIN := M1_075_266_4_KAB6014_POS_ACT.xTimeout;
+            
+        M1_076_266_3_KAB6015_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 76, 
+            typDPT			  := PersistentVars.typDPT[1][76],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6015_CV_R0266_3.IOUT.rValue,
+            );
+            
+        M1_077_266_3_KAB6015_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 77, 
+            typDPT			  := PersistentVars.typDPT[1][77],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6015_POS_ACT_R0266_3.xIN := M1_077_266_3_KAB6015_POS_ACT.xTimeout;
+            
+        M1_078_266_3_KAB6016_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 78, 
+            typDPT			  := PersistentVars.typDPT[1][78],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6016_CV_R0266_3.IOUT.rValue,
+            );
+            
+        M1_079_266_3_KAB6016_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 79, 
+            typDPT			  := PersistentVars.typDPT[1][79],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6016_POS_ACT_R0266_3.xIN := M1_079_266_3_KAB6016_POS_ACT.xTimeout;
+            
+        M1_080_266_3_KAB6017_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 80, 
+            typDPT			  := PersistentVars.typDPT[1][80],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6017_CV_R0266_3.IOUT.rValue,
+            );
+            
+        M1_081_266_3_KAB6017_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 81, 
+            typDPT			  := PersistentVars.typDPT[1][81],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6017_POS_ACT_R0266_3.xIN := M1_081_266_3_KAB6017_POS_ACT.xTimeout;
+            
+        M1_082_266_2_KAB6018_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 82, 
+            typDPT			  := PersistentVars.typDPT[1][82],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6018_CV_R0266_2.IOUT.rValue,
+            );
+            
+        M1_083_266_2_KAB6018_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 83, 
+            typDPT			  := PersistentVars.typDPT[1][83],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6018_POS_ACT_R0266_2.xIN := M1_083_266_2_KAB6018_POS_ACT.xTimeout;
+            
+        M1_084_266_2_KAB6019_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 84, 
+            typDPT			  := PersistentVars.typDPT[1][84],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6019_CV_R0266_2.IOUT.rValue,
+            );
+            
+        M1_085_266_2_KAB6019_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 85, 
+            typDPT			  := PersistentVars.typDPT[1][85],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6019_POS_ACT_R0266_2.xIN := M1_085_266_2_KAB6019_POS_ACT.xTimeout;
+            
+        M1_086_287_KAB6020_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 86, 
+            typDPT			  := PersistentVars.typDPT[1][86],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6020_CV_R0287.IOUT.rValue,
+            );
+            
+        M1_087_287_KAB6020_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 87, 
+            typDPT			  := PersistentVars.typDPT[1][87],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6020_POS_ACT_R0287.xIN := M1_087_287_KAB6020_POS_ACT.xTimeout;
+            
+        M1_088_282_KAB6025_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 88, 
+            typDPT			  := PersistentVars.typDPT[1][88],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6025_CV_R0282.IOUT.rValue,
+            );
+            
+        M1_089_282_KAB6025_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 89, 
+            typDPT			  := PersistentVars.typDPT[1][89],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6025_POS_ACT_R0282.xIN := M1_089_282_KAB6025_POS_ACT.xTimeout;
+            
+        M1_090_266_1_KAB6026_CV(
+            bPortKNX		  := 1, 
+            dwIndex_DPT		:= 90, 
+            typDPT			  := PersistentVars.typDPT[1][90],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6026_CV_R0266_1.IOUT.rValue,
+            );
+            
+        M1_091_266_1_KAB6026_POS_ACT(
+            bPortKNX		   := 1, 
+            dwIndex_DPT		:= 91, 
+            typDPT			  := PersistentVars.typDPT[1][91],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6026_POS_ACT_R0266_1.xIN := M1_091_266_1_KAB6026_POS_ACT.xTimeout;
+            
+                </xhtml>
+              </ST>
+            </body>
+            <addData />
+          </pou>
+    
+          <pou name="KNX_2" pouType="program">
+            <interface>
+              <localVars>
+    
+                        <variable name="M2_001_206_RMA6002_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_002_283_RMA6009_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_003_284_RMA6015_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_004_285_RMA6016_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_005_286_RMA6017_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_006_201_RBB6004_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_007_278_RBB6001_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_008_279_RBB6046_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_009_281_RMA6050_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_010_206_RMA6002_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_011_283_RMA6009_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_012_284_RMA6015_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_013_285_RMA6016_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_014_286_RMA6017_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_015_281_RMA6050_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_016_206_RMA6002_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_017_283_RMA6009_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_018_284_RMA6015_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_019_285_RMA6016_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_020_286_RMA6017_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_021_281_RMA6050_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_022_286_KAB6021_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_023_286_KAB6021_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_024_285_KAB6022_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_025_285_KAB6022_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_026_284_KAB6023_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_027_284_KAB6023_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_028_283_KAB6024_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M2_029_283_KAB6024_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+              </localVars>
+            </interface>
+            <body>
+              <ST>
+                <xhtml xmlns="http://www.w3.org/1999/xhtml">
+    
+        M2_001_206_RMA6002_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 1, 
+            typDPT        := PersistentVars.typDPT[2][1], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom206.0);
+        
+        M2_002_283_RMA6009_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 2, 
+            typDPT        := PersistentVars.typDPT[2][2], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom283.0);
+        
+        M2_003_284_RMA6015_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 3, 
+            typDPT        := PersistentVars.typDPT[2][3], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom284.0);
+        
+        M2_004_285_RMA6016_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 4, 
+            typDPT        := PersistentVars.typDPT[2][4], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom285.0);
+        
+        M2_005_286_RMA6017_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 5, 
+            typDPT        := PersistentVars.typDPT[2][5], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom286.0);
+        
+        M2_006_201_RBB6004_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 6, 
+            typDPT        := PersistentVars.typDPT[2][6], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom201.0);
+        
+        M2_007_278_RBB6001_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 7, 
+            typDPT        := PersistentVars.typDPT[2][7], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom278.0);
+        
+        M2_008_279_RBB6046_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 8, 
+            typDPT        := PersistentVars.typDPT[2][8], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom279.0);
+        
+        M2_009_281_RMA6050_MOV_ACT(
+            bPortKNX      := 2, 
+            dwIndex_DPT   := 9, 
+            typDPT        := PersistentVars.typDPT[2][9], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom281.0);
+        
+        M2_010_206_RMA6002_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 10,
+            typDPT        := PersistentVars.typDPT[2][10],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom206.Temp := C_5640_002_RMA6002_TMP_ACT_R0206.rValue_Out;
+        
+        M2_011_283_RMA6009_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 11,
+            typDPT        := PersistentVars.typDPT[2][11],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom283.Temp := C_5640_002_RMA6009_TMP_ACT_R0283.rValue_Out;
+        
+        M2_012_284_RMA6015_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 12,
+            typDPT        := PersistentVars.typDPT[2][12],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom284.Temp := C_5640_002_RMA6015_TMP_ACT_R0284.rValue_Out;
+        
+        M2_013_285_RMA6016_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 13,
+            typDPT        := PersistentVars.typDPT[2][13],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom285.Temp := C_5640_002_RMA6016_TMP_ACT_R0285.rValue_Out;
+        
+        M2_014_286_RMA6017_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 14,
+            typDPT        := PersistentVars.typDPT[2][14],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom286.Temp := C_5640_002_RMA6017_TMP_ACT_R0286.rValue_Out;
+        
+        M2_015_281_RMA6050_TMP_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 15,
+            typDPT        := PersistentVars.typDPT[2][15],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom281.Temp := C_5640_002_RMA6050_TMP_ACT_R0281.rValue_Out;
+        
+        M2_016_206_RMA6002_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 16,
+            typDPT        := PersistentVars.typDPT[2][16],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom206.Co2 := C_5640_002_RMA6002_CO2_ACT_R0206.rValue_Out;
+        
+        M2_017_283_RMA6009_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 17,
+            typDPT        := PersistentVars.typDPT[2][17],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom283.Co2 := C_5640_002_RMA6009_CO2_ACT_R0283.rValue_Out;
+        
+        M2_018_284_RMA6015_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 18,
+            typDPT        := PersistentVars.typDPT[2][18],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom284.Co2 := C_5640_002_RMA6015_CO2_ACT_R0284.rValue_Out;
+        
+        M2_019_285_RMA6016_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 19,
+            typDPT        := PersistentVars.typDPT[2][19],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom285.Co2 := C_5640_002_RMA6016_CO2_ACT_R0285.rValue_Out;
+        
+        M2_020_286_RMA6017_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 20,
+            typDPT        := PersistentVars.typDPT[2][20],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom286.Co2 := C_5640_002_RMA6017_CO2_ACT_R0286.rValue_Out;
+        
+        M2_021_281_RMA6050_CO2_ACT(
+            bPortKNX      := 2,
+            dwIndex_DPT   := 21,
+            typDPT        := PersistentVars.typDPT[2][21],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom281.Co2 := C_5640_002_RMA6050_CO2_ACT_R0281.rValue_Out;
+        
+        M2_022_286_KAB6021_CV(
+            bPortKNX		  := 2, 
+            dwIndex_DPT		:= 22, 
+            typDPT			  := PersistentVars.typDPT[2][22],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6021_CV_R0286.IOUT.rValue,
+            );
+            
+        M2_023_286_KAB6021_POS_ACT(
+            bPortKNX		   := 2, 
+            dwIndex_DPT		:= 23, 
+            typDPT			  := PersistentVars.typDPT[2][23],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6021_POS_ACT_R0286.xIN := M2_023_286_KAB6021_POS_ACT.xTimeout;
+            
+        M2_024_285_KAB6022_CV(
+            bPortKNX		  := 2, 
+            dwIndex_DPT		:= 24, 
+            typDPT			  := PersistentVars.typDPT[2][24],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6022_CV_R0285.IOUT.rValue,
+            );
+            
+        M2_025_285_KAB6022_POS_ACT(
+            bPortKNX		   := 2, 
+            dwIndex_DPT		:= 25, 
+            typDPT			  := PersistentVars.typDPT[2][25],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6022_POS_ACT_R0285.xIN := M2_025_285_KAB6022_POS_ACT.xTimeout;
+            
+        M2_026_284_KAB6023_CV(
+            bPortKNX		  := 2, 
+            dwIndex_DPT		:= 26, 
+            typDPT			  := PersistentVars.typDPT[2][26],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6023_CV_R0284.IOUT.rValue,
+            );
+            
+        M2_027_284_KAB6023_POS_ACT(
+            bPortKNX		   := 2, 
+            dwIndex_DPT		:= 27, 
+            typDPT			  := PersistentVars.typDPT[2][27],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6023_POS_ACT_R0284.xIN := M2_027_284_KAB6023_POS_ACT.xTimeout;
+            
+        M2_028_283_KAB6024_CV(
+            bPortKNX		  := 2, 
+            dwIndex_DPT		:= 28, 
+            typDPT			  := PersistentVars.typDPT[2][28],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6024_CV_R0283.IOUT.rValue,
+            );
+            
+        M2_029_283_KAB6024_POS_ACT(
+            bPortKNX		   := 2, 
+            dwIndex_DPT		:= 29, 
+            typDPT			  := PersistentVars.typDPT[2][29],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6024_POS_ACT_R0283.xIN := M2_029_283_KAB6024_POS_ACT.xTimeout;
+            
+                </xhtml>
+              </ST>
+            </body>
+            <addData />
+          </pou>
+    
+          <pou name="KNX_3" pouType="program">
+            <interface>
+              <localVars>
+    
+                        <variable name="M3_001_275_RMA6029_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_002_246_RMA6031_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_003_245_RMA6032_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_004_245_RMA6033_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_005_243_RMA6035_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_006_238_RMA6038_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_007_236_RMA6039_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_008_235_RMA6040_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_009_234_RMA6041_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_010_234_RMA6042_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_011_202_RBB6030_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_012_203_RBB6034_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_013_240_RMA6049_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_014_203_RBB6037_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_015_233_RMA6043_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_016_280_RBB6045_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_017_203_RBB6048_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_018_203_RBB6044_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_019_241_RMA6036_MOV_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Switch_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_020_275_RMA6029_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_021_246_RMA6031_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_022_245_RMA6032_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_023_245_RMA6033_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_024_243_RMA6035_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_025_238_RMA6038_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_026_236_RMA6039_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_027_235_RMA6040_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_028_234_RMA6041_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_029_234_RMA6042_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_030_241_RMA6036_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_031_240_RMA6049_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_032_233_RMA6043_TMP_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_Temp_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_033_275_RMA6029_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_034_246_RMA6031_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_035_245_RMA6032_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_036_245_RMA6033_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_037_243_RMA6035_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_038_238_RMA6038_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_039_236_RMA6039_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_040_235_RMA6040_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_041_234_RMA6041_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_042_234_RMA6042_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_043_241_RMA6036_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_044_240_RMA6049_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_045_233_RMA6043_CO2_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Value_AirQuality_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_046_246_KAB6027_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_047_246_KAB6027_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_048_235_KAB6028_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_049_235_KAB6028_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_050_236_KAB6029_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_051_236_KAB6029_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_052_238_KAB6030_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_053_238_KAB6030_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_054_253_KAB6031_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_055_253_KAB6031_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_056_240_KAB6032_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_057_240_KAB6032_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_058_245_KAB6033_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_059_245_KAB6033_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_060_243_KAB6034_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_061_243_KAB6034_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_062_241_KAB6035_CV" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+                        <variable name="M3_063_241_KAB6035_POS_ACT" > 
+                          <type>
+                            <derived name="FbDPT_Scaling_pro" /> 
+                          </type>
+                        </variable>   
+    
+              </localVars>
+            </interface>
+            <body>
+              <ST>
+                <xhtml xmlns="http://www.w3.org/1999/xhtml">
+    
+        M3_001_275_RMA6029_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 1, 
+            typDPT        := PersistentVars.typDPT[3][1], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom275.0);
+        
+        M3_002_246_RMA6031_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 2, 
+            typDPT        := PersistentVars.typDPT[3][2], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom246.0);
+        
+        M3_003_245_RMA6032_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 3, 
+            typDPT        := PersistentVars.typDPT[3][3], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom245.0);
+        
+        M3_004_245_RMA6033_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 4, 
+            typDPT        := PersistentVars.typDPT[3][4], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom245.0);
+        
+        M3_005_243_RMA6035_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 5, 
+            typDPT        := PersistentVars.typDPT[3][5], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom243.0);
+        
+        M3_006_238_RMA6038_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 6, 
+            typDPT        := PersistentVars.typDPT[3][6], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom238.0);
+        
+        M3_007_236_RMA6039_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 7, 
+            typDPT        := PersistentVars.typDPT[3][7], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom236.0);
+        
+        M3_008_235_RMA6040_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 8, 
+            typDPT        := PersistentVars.typDPT[3][8], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom235.0);
+        
+        M3_009_234_RMA6041_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 9, 
+            typDPT        := PersistentVars.typDPT[3][9], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom234.0);
+        
+        M3_010_234_RMA6042_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 10, 
+            typDPT        := PersistentVars.typDPT[3][10], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom234.0);
+        
+        M3_011_202_RBB6030_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 11, 
+            typDPT        := PersistentVars.typDPT[3][11], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom202.0);
+        
+        M3_012_203_RBB6034_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 12, 
+            typDPT        := PersistentVars.typDPT[3][12], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom203.0);
+        
+        M3_013_240_RMA6049_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 13, 
+            typDPT        := PersistentVars.typDPT[3][13], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom240.0);
+        
+        M3_014_203_RBB6037_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 14, 
+            typDPT        := PersistentVars.typDPT[3][14], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom203.0);
+        
+        M3_015_233_RMA6043_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 15, 
+            typDPT        := PersistentVars.typDPT[3][15], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom233.0);
+        
+        M3_016_280_RBB6045_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 16, 
+            typDPT        := PersistentVars.typDPT[3][16], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom280.0);
+        
+        M3_017_203_RBB6048_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 17, 
+            typDPT        := PersistentVars.typDPT[3][17], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom203.0);
+        
+        M3_018_203_RBB6044_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 18, 
+            typDPT        := PersistentVars.typDPT[3][18], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom203.0);
+        
+        M3_019_241_RMA6036_MOV_ACT(
+            bPortKNX      := 3, 
+            dwIndex_DPT   := 19, 
+            typDPT        := PersistentVars.typDPT[3][19], 
+            xSwitch_OUT   => GVL_ClimateControl.presenceDetectorRoom241.0);
+        
+        M3_020_275_RMA6029_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 20,
+            typDPT        := PersistentVars.typDPT[3][20],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom275.Temp := C_5640_002_RMA6029_TMP_ACT_R0275.rValue_Out;
+        
+        M3_021_246_RMA6031_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 21,
+            typDPT        := PersistentVars.typDPT[3][21],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom246.Temp := C_5640_002_RMA6031_TMP_ACT_R0246.rValue_Out;
+        
+        M3_022_245_RMA6032_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 22,
+            typDPT        := PersistentVars.typDPT[3][22],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom245.Temp := C_5640_002_RMA6032_TMP_ACT_R0245.rValue_Out;
+        
+        M3_023_245_RMA6033_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 23,
+            typDPT        := PersistentVars.typDPT[3][23],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom245.Temp := C_5640_002_RMA6033_TMP_ACT_R0245.rValue_Out;
+        
+        M3_024_243_RMA6035_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 24,
+            typDPT        := PersistentVars.typDPT[3][24],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom243.Temp := C_5640_002_RMA6035_TMP_ACT_R0243.rValue_Out;
+        
+        M3_025_238_RMA6038_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 25,
+            typDPT        := PersistentVars.typDPT[3][25],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom238.Temp := C_5640_002_RMA6038_TMP_ACT_R0238.rValue_Out;
+        
+        M3_026_236_RMA6039_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 26,
+            typDPT        := PersistentVars.typDPT[3][26],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom236.Temp := C_5640_002_RMA6039_TMP_ACT_R0236.rValue_Out;
+        
+        M3_027_235_RMA6040_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 27,
+            typDPT        := PersistentVars.typDPT[3][27],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom235.Temp := C_5640_002_RMA6040_TMP_ACT_R0235.rValue_Out;
+        
+        M3_028_234_RMA6041_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 28,
+            typDPT        := PersistentVars.typDPT[3][28],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom234.Temp := C_5640_002_RMA6041_TMP_ACT_R0234.rValue_Out;
+        
+        M3_029_234_RMA6042_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 29,
+            typDPT        := PersistentVars.typDPT[3][29],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom234.Temp := C_5640_002_RMA6042_TMP_ACT_R0234.rValue_Out;
+        
+        M3_030_241_RMA6036_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 30,
+            typDPT        := PersistentVars.typDPT[3][30],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom241.Temp := C_5640_002_RMA6036_TMP_ACT_R0241.rValue_Out;
+        
+        M3_031_240_RMA6049_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 31,
+            typDPT        := PersistentVars.typDPT[3][31],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom240.Temp := C_5640_002_RMA6049_TMP_ACT_R0240.rValue_Out;
+        
+        M3_032_233_RMA6043_TMP_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 32,
+            typDPT        := PersistentVars.typDPT[3][32],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom233.Temp := C_5640_002_RMA6043_TMP_ACT_R0233.rValue_Out;
+        
+        M3_033_275_RMA6029_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 33,
+            typDPT        := PersistentVars.typDPT[3][33],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom275.Co2 := C_5640_002_RMA6029_CO2_ACT_R0275.rValue_Out;
+        
+        M3_034_246_RMA6031_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 34,
+            typDPT        := PersistentVars.typDPT[3][34],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom246.Co2 := C_5640_002_RMA6031_CO2_ACT_R0246.rValue_Out;
+        
+        M3_035_245_RMA6032_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 35,
+            typDPT        := PersistentVars.typDPT[3][35],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom245.Co2 := C_5640_002_RMA6032_CO2_ACT_R0245.rValue_Out;
+        
+        M3_036_245_RMA6033_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 36,
+            typDPT        := PersistentVars.typDPT[3][36],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom245.Co2 := C_5640_002_RMA6033_CO2_ACT_R0245.rValue_Out;
+        
+        M3_037_243_RMA6035_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 37,
+            typDPT        := PersistentVars.typDPT[3][37],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom243.Co2 := C_5640_002_RMA6035_CO2_ACT_R0243.rValue_Out;
+        
+        M3_038_238_RMA6038_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 38,
+            typDPT        := PersistentVars.typDPT[3][38],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom238.Co2 := C_5640_002_RMA6038_CO2_ACT_R0238.rValue_Out;
+        
+        M3_039_236_RMA6039_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 39,
+            typDPT        := PersistentVars.typDPT[3][39],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom236.Co2 := C_5640_002_RMA6039_CO2_ACT_R0236.rValue_Out;
+        
+        M3_040_235_RMA6040_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 40,
+            typDPT        := PersistentVars.typDPT[3][40],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom235.Co2 := C_5640_002_RMA6040_CO2_ACT_R0235.rValue_Out;
+        
+        M3_041_234_RMA6041_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 41,
+            typDPT        := PersistentVars.typDPT[3][41],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom234.Co2 := C_5640_002_RMA6041_CO2_ACT_R0234.rValue_Out;
+        
+        M3_042_234_RMA6042_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 42,
+            typDPT        := PersistentVars.typDPT[3][42],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom234.Co2 := C_5640_002_RMA6042_CO2_ACT_R0234.rValue_Out;
+        
+        M3_043_241_RMA6036_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 43,
+            typDPT        := PersistentVars.typDPT[3][43],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom241.Co2 := C_5640_002_RMA6036_CO2_ACT_R0241.rValue_Out;
+        
+        M3_044_240_RMA6049_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 44,
+            typDPT        := PersistentVars.typDPT[3][44],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom240.Co2 := C_5640_002_RMA6049_CO2_ACT_R0240.rValue_Out;
+        
+        M3_045_233_RMA6043_CO2_ACT(
+            bPortKNX      := 3,
+            dwIndex_DPT   := 45,
+            typDPT        := PersistentVars.typDPT[3][45],
+            xUpdate_PLC   => ,
+            xTimeOut      => );
+
+            GVL_ClimateControl.fbClimateControllerRoom233.Co2 := C_5640_002_RMA6043_CO2_ACT_R0233.rValue_Out;
+        
+        M3_046_246_KAB6027_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 46, 
+            typDPT			  := PersistentVars.typDPT[3][46],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6027_CV_R0246.IOUT.rValue,
+            );
+            
+        M3_047_246_KAB6027_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 47, 
+            typDPT			  := PersistentVars.typDPT[3][47],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6027_POS_ACT_R0246.xIN := M3_047_246_KAB6027_POS_ACT.xTimeout;
+            
+        M3_048_235_KAB6028_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 48, 
+            typDPT			  := PersistentVars.typDPT[3][48],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6028_CV_R0235.IOUT.rValue,
+            );
+            
+        M3_049_235_KAB6028_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 49, 
+            typDPT			  := PersistentVars.typDPT[3][49],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6028_POS_ACT_R0235.xIN := M3_049_235_KAB6028_POS_ACT.xTimeout;
+            
+        M3_050_236_KAB6029_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 50, 
+            typDPT			  := PersistentVars.typDPT[3][50],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6029_CV_R0236.IOUT.rValue,
+            );
+            
+        M3_051_236_KAB6029_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 51, 
+            typDPT			  := PersistentVars.typDPT[3][51],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6029_POS_ACT_R0236.xIN := M3_051_236_KAB6029_POS_ACT.xTimeout;
+            
+        M3_052_238_KAB6030_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 52, 
+            typDPT			  := PersistentVars.typDPT[3][52],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6030_CV_R0238.IOUT.rValue,
+            );
+            
+        M3_053_238_KAB6030_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 53, 
+            typDPT			  := PersistentVars.typDPT[3][53],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6030_POS_ACT_R0238.xIN := M3_053_238_KAB6030_POS_ACT.xTimeout;
+            
+        M3_054_253_KAB6031_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 54, 
+            typDPT			  := PersistentVars.typDPT[3][54],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6031_CV_R0253.IOUT.rValue,
+            );
+            
+        M3_055_253_KAB6031_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 55, 
+            typDPT			  := PersistentVars.typDPT[3][55],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6031_POS_ACT_R0253.xIN := M3_055_253_KAB6031_POS_ACT.xTimeout;
+            
+        M3_056_240_KAB6032_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 56, 
+            typDPT			  := PersistentVars.typDPT[3][56],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6032_CV_R0240.IOUT.rValue,
+            );
+            
+        M3_057_240_KAB6032_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 57, 
+            typDPT			  := PersistentVars.typDPT[3][57],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6032_POS_ACT_R0240.xIN := M3_057_240_KAB6032_POS_ACT.xTimeout;
+            
+        M3_058_245_KAB6033_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 58, 
+            typDPT			  := PersistentVars.typDPT[3][58],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6033_CV_R0245.IOUT.rValue,
+            );
+            
+        M3_059_245_KAB6033_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 59, 
+            typDPT			  := PersistentVars.typDPT[3][59],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6033_POS_ACT_R0245.xIN := M3_059_245_KAB6033_POS_ACT.xTimeout;
+            
+        M3_060_243_KAB6034_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 60, 
+            typDPT			  := PersistentVars.typDPT[3][60],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6034_CV_R0243.IOUT.rValue,
+            );
+            
+        M3_061_243_KAB6034_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 61, 
+            typDPT			  := PersistentVars.typDPT[3][61],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6034_POS_ACT_R0243.xIN := M3_061_243_KAB6034_POS_ACT.xTimeout;
+            
+        M3_062_241_KAB6035_CV(
+            bPortKNX		  := 3, 
+            dwIndex_DPT		:= 62, 
+            typDPT			  := PersistentVars.typDPT[3][62],
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_IN		  := GVL_BACnet_ClimateControl.C_5640_002_KAB6035_CV_R0241.IOUT.rValue,
+            );
+            
+        M3_063_241_KAB6035_POS_ACT(
+            bPortKNX		   := 3, 
+            dwIndex_DPT		:= 63, 
+            typDPT			  := PersistentVars.typDPT[3][63],,
+            xUpdate_KNX		:= PRG_KnxMaster.updateHeat, 
+            rValue_OUT		:= ,
+            );
+
+        GVL_BACnet_ClimateControl.C_5640_002_KAB6035_POS_ACT_R0241.xIN := M3_063_241_KAB6035_POS_ACT.xTimeout;
+            
+                </xhtml>
+              </ST>
+            </body>
+            <addData />
+          </pou>
+    
+        </pous>
+      </types>
+      <instances>
+        <configurations />
+      </instances>
+      <addData>
+      </addData>
+    </project>
+    
