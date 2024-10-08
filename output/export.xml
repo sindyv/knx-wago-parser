@@ -2680,6 +2680,1332 @@
         <configurations />
       </instances>
       <addData>
+        <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
+          <globalVars name="GVL_BACnet_ClimateControl" >
+    
+      <variable name="C_5640_002_RMA6043_SPV_R0233">
+      <type>
+        <derived name="FbAnalogValue_Medium (0) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6043_SPV_Komf_R0233">
+      <type>
+        <derived name="FbAnalogValue_Medium (1) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6043_SPV_Stdb_R0233">
+      <type>
+        <derived name="FbAnalogValue_Medium (2) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6043_SPV_Natt_R0233">
+      <type>
+        <derived name="FbAnalogValue_Medium (3) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6041_SPV_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (4) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6041_SPV_Komf_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (5) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6041_SPV_Stdb_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (6) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6041_SPV_Natt_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (7) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6042_SPV_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (8) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6042_SPV_Komf_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (9) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6042_SPV_Stdb_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (10) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6042_SPV_Natt_R0234">
+      <type>
+        <derived name="FbAnalogValue_Medium (11) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6040_SPV_R0235">
+      <type>
+        <derived name="FbAnalogValue_Medium (12) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6040_SPV_Komf_R0235">
+      <type>
+        <derived name="FbAnalogValue_Medium (13) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6040_SPV_Stdb_R0235">
+      <type>
+        <derived name="FbAnalogValue_Medium (14) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6040_SPV_Natt_R0235">
+      <type>
+        <derived name="FbAnalogValue_Medium (15) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6039_SPV_R0236">
+      <type>
+        <derived name="FbAnalogValue_Medium (16) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6039_SPV_Komf_R0236">
+      <type>
+        <derived name="FbAnalogValue_Medium (17) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6039_SPV_Stdb_R0236">
+      <type>
+        <derived name="FbAnalogValue_Medium (18) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6039_SPV_Natt_R0236">
+      <type>
+        <derived name="FbAnalogValue_Medium (19) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6038_SPV_R0238">
+      <type>
+        <derived name="FbAnalogValue_Medium (20) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6038_SPV_Komf_R0238">
+      <type>
+        <derived name="FbAnalogValue_Medium (21) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6038_SPV_Stdb_R0238">
+      <type>
+        <derived name="FbAnalogValue_Medium (22) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6038_SPV_Natt_R0238">
+      <type>
+        <derived name="FbAnalogValue_Medium (23) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6036_SPV_R0241">
+      <type>
+        <derived name="FbAnalogValue_Medium (24) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6036_SPV_Komf_R0241">
+      <type>
+        <derived name="FbAnalogValue_Medium (25) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6036_SPV_Stdb_R0241">
+      <type>
+        <derived name="FbAnalogValue_Medium (26) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6036_SPV_Natt_R0241">
+      <type>
+        <derived name="FbAnalogValue_Medium (27) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6035_SPV_R0243">
+      <type>
+        <derived name="FbAnalogValue_Medium (28) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6035_SPV_Komf_R0243">
+      <type>
+        <derived name="FbAnalogValue_Medium (29) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6035_SPV_Stdb_R0243">
+      <type>
+        <derived name="FbAnalogValue_Medium (30) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6035_SPV_Natt_R0243">
+      <type>
+        <derived name="FbAnalogValue_Medium (31) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6032_SPV_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (32) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6032_SPV_Komf_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (33) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6032_SPV_Stdb_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (34) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6032_SPV_Natt_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (35) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6033_SPV_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (36) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6033_SPV_Komf_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (37) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6033_SPV_Stdb_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (38) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6033_SPV_Natt_R0245">
+      <type>
+        <derived name="FbAnalogValue_Medium (39) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6031_SPV_R0246">
+      <type>
+        <derived name="FbAnalogValue_Medium (40) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6031_SPV_Komf_R0246">
+      <type>
+        <derived name="FbAnalogValue_Medium (41) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6031_SPV_Stdb_R0246">
+      <type>
+        <derived name="FbAnalogValue_Medium (42) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6031_SPV_Natt_R0246">
+      <type>
+        <derived name="FbAnalogValue_Medium (43) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6003_SPV_R0266_1">
+      <type>
+        <derived name="FbAnalogValue_Medium (44) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6003_SPV_Komf_R0266_1">
+      <type>
+        <derived name="FbAnalogValue_Medium (45) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6003_SPV_Stdb_R0266_1">
+      <type>
+        <derived name="FbAnalogValue_Medium (46) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6003_SPV_Natt_R0266_1">
+      <type>
+        <derived name="FbAnalogValue_Medium (47) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6006_SPV_R0266_2">
+      <type>
+        <derived name="FbAnalogValue_Medium (48) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6006_SPV_Komf_R0266_2">
+      <type>
+        <derived name="FbAnalogValue_Medium (49) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6006_SPV_Stdb_R0266_2">
+      <type>
+        <derived name="FbAnalogValue_Medium (50) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6006_SPV_Natt_R0266_2">
+      <type>
+        <derived name="FbAnalogValue_Medium (51) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6007_SPV_R0266_3">
+      <type>
+        <derived name="FbAnalogValue_Medium (52) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6007_SPV_Komf_R0266_3">
+      <type>
+        <derived name="FbAnalogValue_Medium (53) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6007_SPV_Stdb_R0266_3">
+      <type>
+        <derived name="FbAnalogValue_Medium (54) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6007_SPV_Natt_R0266_3">
+      <type>
+        <derived name="FbAnalogValue_Medium (55) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6010_SPV_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (56) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6010_SPV_Komf_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (57) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6010_SPV_Stdb_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (58) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6010_SPV_Natt_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (59) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6011_SPV_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (60) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6011_SPV_Komf_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (61) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6011_SPV_Stdb_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (62) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6011_SPV_Natt_R0266_4">
+      <type>
+        <derived name="FbAnalogValue_Medium (63) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6012_SPV_R0266_5">
+      <type>
+        <derived name="FbAnalogValue_Medium (64) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6012_SPV_Komf_R0266_5">
+      <type>
+        <derived name="FbAnalogValue_Medium (65) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6012_SPV_Stdb_R0266_5">
+      <type>
+        <derived name="FbAnalogValue_Medium (66) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6012_SPV_Natt_R0266_5">
+      <type>
+        <derived name="FbAnalogValue_Medium (67) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6018_SPV_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (68) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6018_SPV_Komf_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (69) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6018_SPV_Stdb_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (70) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6018_SPV_Natt_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (71) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6019_SPV_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (72) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6019_SPV_Komf_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (73) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6019_SPV_Stdb_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (74) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6019_SPV_Natt_R0266_6">
+      <type>
+        <derived name="FbAnalogValue_Medium (75) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6021_SPV_R0266_7">
+      <type>
+        <derived name="FbAnalogValue_Medium (76) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6021_SPV_Komf_R0266_7">
+      <type>
+        <derived name="FbAnalogValue_Medium (77) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6021_SPV_Stdb_R0266_7">
+      <type>
+        <derived name="FbAnalogValue_Medium (78) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6021_SPV_Natt_R0266_7">
+      <type>
+        <derived name="FbAnalogValue_Medium (79) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6029_SPV_R0275">
+      <type>
+        <derived name="FbAnalogValue_Medium (80) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6029_SPV_Komf_R0275">
+      <type>
+        <derived name="FbAnalogValue_Medium (81) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6029_SPV_Stdb_R0275">
+      <type>
+        <derived name="FbAnalogValue_Medium (82) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6029_SPV_Natt_R0275">
+      <type>
+        <derived name="FbAnalogValue_Medium (83) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6005_SPV_R0282">
+      <type>
+        <derived name="FbAnalogValue_Medium (84) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6005_SPV_Komf_R0282">
+      <type>
+        <derived name="FbAnalogValue_Medium (85) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6005_SPV_Stdb_R0282">
+      <type>
+        <derived name="FbAnalogValue_Medium (86) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6005_SPV_Natt_R0282">
+      <type>
+        <derived name="FbAnalogValue_Medium (87) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6009_SPV_R0283">
+      <type>
+        <derived name="FbAnalogValue_Medium (88) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6009_SPV_Komf_R0283">
+      <type>
+        <derived name="FbAnalogValue_Medium (89) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6009_SPV_Stdb_R0283">
+      <type>
+        <derived name="FbAnalogValue_Medium (90) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6009_SPV_Natt_R0283">
+      <type>
+        <derived name="FbAnalogValue_Medium (91) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6013_SPV_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (92) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6013_SPV_Komf_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (93) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6013_SPV_Stdb_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (94) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6013_SPV_Natt_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (95) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6015_SPV_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (96) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6015_SPV_Komf_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (97) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6015_SPV_Stdb_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (98) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6015_SPV_Natt_R0284">
+      <type>
+        <derived name="FbAnalogValue_Medium (99) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6014_SPV_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (100) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6014_SPV_Komf_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (101) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6014_SPV_Stdb_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (102) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6014_SPV_Natt_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (103) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6016_SPV_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (104) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6016_SPV_Komf_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (105) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6016_SPV_Stdb_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (106) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6016_SPV_Natt_R0285">
+      <type>
+        <derived name="FbAnalogValue_Medium (107) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6017_SPV_R0286">
+      <type>
+        <derived name="FbAnalogValue_Medium (108) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6017_SPV_Komf_R0286">
+      <type>
+        <derived name="FbAnalogValue_Medium (109) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6017_SPV_Stdb_R0286">
+      <type>
+        <derived name="FbAnalogValue_Medium (110) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6017_SPV_Natt_R0286">
+      <type>
+        <derived name="FbAnalogValue_Medium (111) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6020_SPV_R0287">
+      <type>
+        <derived name="FbAnalogValue_Medium (112) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6020_SPV_Komf_R0287">
+      <type>
+        <derived name="FbAnalogValue_Medium (113) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6020_SPV_Stdb_R0287">
+      <type>
+        <derived name="FbAnalogValue_Medium (114) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6020_SPV_Natt_R0287">
+      <type>
+        <derived name="FbAnalogValue_Medium (115) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6023_SPV_R0288">
+      <type>
+        <derived name="FbAnalogValue_Medium (116) := (
+               _sDescription := 'Arbeidende settpunkt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6023_SPV_Komf_R0288">
+      <type>
+        <derived name="FbAnalogValue_Medium (117) := (
+               _sDescription := 'Settpunkt komfort', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6023_SPV_Stdb_R0288">
+      <type>
+        <derived name="FbAnalogValue_Medium (118) := (
+               _sDescription := 'Settpunkt Standby', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+      <variable name="C_5640_002_RMA6023_SPV_Natt_R0288">
+      <type>
+        <derived name="FbAnalogValue_Medium (119) := (
+               _sDescription := 'Settpunkt Natt', 
+               _rCov_Increment := 0.1, 
+               _eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C 
+         )" />
+      </type>
+      
+    </variable>
+  
+          </globalVars>
+        </data>
+    
       </addData>
     </project>
     

@@ -1,11 +1,75 @@
 {
-  "xmlExportFileName": "./output/export.xml",
-  "bacnetTagPrefix": "C",
-  "variablesTypesList": [
-    { "signalName": "TMP_ACT", "signalType": "FbDPT_Value_Temp_pro" },
-    { "signalName": "MOV_ACT", "signalType": "FbDPT_Value_Switch_pro" },
-    { "signalName": "CO2_ACT", "signalType": "FbDPT_Value_AirQuality_pro" },
-    { "signalName": "CV", "signalType": "FbDPT_Scaling_pro" },
-    { "signalName": "POS_ACT", "signalType": "FbDPT_Scaling_pro" }
-  ]
+	"xmlExportFileName": "./output/export.xml",
+	"bacnetTagPrefix": "C",
+	"tfmComponentCodeLength": 3,
+	"variablesTypesList": [
+		{
+			"signalName": "TMP_ACT",
+			"signalType": "FbDPT_Value_Temp_pro"
+		},
+		{
+			"signalName": "MOV_ACT",
+			"signalType": "FbDPT_Value_Switch_pro"
+		},
+		{ "signalName": "CO2_ACT", "signalType": "FbDPT_Value_AirQuality_pro" },
+		{ "signalName": "CV", "signalType": "FbDPT_Scaling_pro" },
+		{ "signalName": "POS_ACT", "signalType": "FbDPT_Scaling_pro" }
+	],
+	"roomTypes": [
+		{
+			"type": 1,
+			"components": [
+				{
+					"type": "RMA",
+					"bacnetVars": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"]
+				}
+			]
+		},
+		{
+			"type": 2,
+			"bacnetVars": ["TMP_ACT"]
+		}
+	],
+	"bacnetVars": [
+		{
+			"name": "SPV",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPV_Komf",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt komfort'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPV_Stdb",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt Standby'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPV_Natt",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt Natt'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		}
+	]
 }

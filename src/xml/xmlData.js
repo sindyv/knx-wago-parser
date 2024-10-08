@@ -1,5 +1,5 @@
 const header = () => {
-  return `<?xml version="1.0" encoding="utf-8"?>
+	return `<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
   <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP19 Patch 2" creationDateTime="2024-10-03T10:19:48.2662044" />
   <contentHeader name="Untitled1.project" modificationDateTime="2024-10-03T10:12:01.335834">
@@ -22,86 +22,106 @@ const header = () => {
   </contentHeader>
   <types>
     <dataTypes />
-    <pous>`;
-};
+    <pous>`
+}
 
 const pouHeader = (puoName) => {
-  return `
+	return `
           <pou name="${puoName}" pouType="program">
             <interface>
               <localVars>
-    `;
-};
+    `
+}
 
 const pouVariable = (name, type) => {
-  return `
+	return `
                         <variable name="${name}" > 
                           <type>
                             <derived name="${type}" /> 
                           </type>
                         </variable>   
-    `;
-};
+    `
+}
 
 const pouMiddle = () => {
-  return `
+	return `
               </localVars>
             </interface>
             <body>
               <ST>
                 <xhtml xmlns="http://www.w3.org/1999/xhtml">
-    `;
-};
+    `
+}
 
 const pouEnd = () => {
-  return `
+	return `
                 </xhtml>
               </ST>
             </body>
             <addData />
           </pou>
-    `;
-};
+    `
+}
 
 const gvlHeader = (name) => {
-  return `
+	return `
         <data name="http://www.3s-software.com/plcopenxml/globalvars" handleUnknown="implementation">
           <globalVars name="${name}" >
-    `;
-};
+    `
+}
+
+const gvlVar = (name, type, comment) => {
+	return `
+      <variable name="${name}">
+      <type>
+        <derived name="${type}" />
+      </type>
+      ${
+				comment === undefined
+					? ""
+					: `
+        <documentation>
+          <xhtml xmlns=""http://www.w3.org/1999/xhtml"">${comment}</xhtml>
+        </documentation>
+        `
+			}
+    </variable>
+  `
+}
 
 const gvlFooter = () => {
-  return `
+	return `
           </globalVars>
         </data>
-    `;
-};
+    `
+}
 
 const middle = () => {
-  return `
+	return `
         </pous>
       </types>
       <instances>
         <configurations />
       </instances>
-      <addData>`;
-};
+      <addData>`
+}
 
 const footer = () => {
-  return `
+	return `
       </addData>
     </project>
-    `;
-};
+    `
+}
 
 module.exports = {
-  header,
-  middle,
-  footer,
-  pouHeader,
-  pouVariable,
-  pouMiddle,
-  pouEnd,
-  gvlHeader,
-  gvlFooter,
-};
+	header,
+	middle,
+	footer,
+	pouHeader,
+	pouVariable,
+	pouMiddle,
+	pouEnd,
+	gvlHeader,
+	gvlFooter,
+	gvlVar,
+}
