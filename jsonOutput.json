@@ -1,1 +1,2722 @@
-{"rooms":[{"roomType":3,"line":[2],"roomName":"201","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6026","plcTag":"_5640_002_RBB6026","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":46},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":47},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":48}]},{"type":"RBB","tfmTag":"=5640.002-RBB6027","plcTag":"_5640_002_RBB6027","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":49},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":50},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":51}]},{"type":"RBB","tfmTag":"=5640.002-RBB6028","plcTag":"_5640_002_RBB6028","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":52},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":53},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":54}]},{"type":"RMA","tfmTag":"=5640.002-RMA6024","plcTag":"_5640_002_RMA6024","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":203},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":204},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":205}]},{"type":"RBB","tfmTag":"=5640.002-RBB6004","plcTag":"_5640_002_RBB6004","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":15},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":16},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":17},{"signal":"HVAC_EXT","mainGroup":3,"middleGroup":0,"subGroup":18}]}]},{"roomType":3,"line":[4],"roomName":"202","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6030","plcTag":"_5640_002_RBB6030","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":30},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":31},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":32}]}]},{"roomType":3,"line":[4],"roomName":"203","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6034","plcTag":"_5640_002_RBB6034","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":33},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":34},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":35}]},{"type":"RBB","tfmTag":"=5640.002-RBB6037","plcTag":"_5640_002_RBB6037","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":39},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":40},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":41}]},{"type":"RBB","tfmTag":"=5640.002-RBB6048","plcTag":"_5640_002_RBB6048","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":48},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":49},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":50}]},{"type":"RBB","tfmTag":"=5640.002-RBB6044","plcTag":"_5640_002_RBB6044","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":51},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":52},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":53}]}]},{"roomType":3,"line":[3],"roomName":"206","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6002","plcTag":"_5640_002_RMA6002","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":0},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":1},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":2},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":0},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":0}]}]},{"roomType":1,"line":[4],"roomName":"233","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6043","plcTag":"_5640_002_RMA6043","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":42},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":43},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":44},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":12},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":12}]}]},{"roomType":1,"line":[4],"roomName":"234","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6041","plcTag":"_5640_002_RMA6041","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":24},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":25},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":26},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":8},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":8}]},{"type":"RMA","tfmTag":"=5640.002-RMA6042","plcTag":"_5640_002_RMA6042","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":27},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":28},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":29},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":9},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":9}]}]},{"roomType":1,"line":[4],"roomName":"235","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6040","plcTag":"_5640_002_RMA6040","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":21},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":22},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":23},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":7},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":7}]},{"type":"KAB","tfmTag":"=5640.002-KAB6028","plcTag":"_5640_002_KAB6028","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":3},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":4},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":5}]}]},{"roomType":1,"line":[4],"roomName":"236","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6039","plcTag":"_5640_002_RMA6039","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":18},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":19},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":20},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":6},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":6}]},{"type":"KAB","tfmTag":"=5640.002-KAB6029","plcTag":"_5640_002_KAB6029","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":6},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":7},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":8}]}]},{"roomType":1,"line":[4],"roomName":"238","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6038","plcTag":"_5640_002_RMA6038","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":15},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":16},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":17},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":5},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":5}]},{"type":"KAB","tfmTag":"=5640.002-KAB6030","plcTag":"_5640_002_KAB6030","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":9},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":10},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":11}]}]},{"roomType":2,"line":[4],"roomName":"240","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6049","plcTag":"_5640_002_RMA6049","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":36},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":37},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":38},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":11},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":11}]},{"type":"KAB","tfmTag":"=5640.002-KAB6032","plcTag":"_5640_002_KAB6032","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":15},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":16},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":17}]}]},{"roomType":1,"line":[4],"roomName":"241","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6036","plcTag":"_5640_002_RMA6036","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":54},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":55},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":56},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":10},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":10}]},{"type":"KAB","tfmTag":"=5640.002-KAB6035","plcTag":"_5640_002_KAB6035","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":24},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":25},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":26}]}]},{"roomType":1,"line":[4],"roomName":"243","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6035","plcTag":"_5640_002_RMA6035","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":12},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":13},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":14},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":4},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":4}]},{"type":"KAB","tfmTag":"=5640.002-KAB6034","plcTag":"_5640_002_KAB6034","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":21},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":22},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":23}]}]},{"roomType":1,"line":[4],"roomName":"245","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6032","plcTag":"_5640_002_RMA6032","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":6},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":7},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":8},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":2},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":2}]},{"type":"RMA","tfmTag":"=5640.002-RMA6033","plcTag":"_5640_002_RMA6033","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":9},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":10},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":11},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":3},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":3}]},{"type":"KAB","tfmTag":"=5640.002-KAB6033","plcTag":"_5640_002_KAB6033","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":18},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":19},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":20}]}]},{"roomType":1,"line":[4],"roomName":"246","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6031","plcTag":"_5640_002_RMA6031","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":3},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":4},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":5},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":1},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":1}]},{"type":"KAB","tfmTag":"=5640.002-KAB6027","plcTag":"_5640_002_KAB6027","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":0},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":1},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":2}]}]},{"roomType":1,"line":[4],"roomName":"253","components":[{"type":"KAB","tfmTag":"=5640.002-KAB6031","plcTag":"_5640_002_KAB6031","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":4,"middleGroup":4,"subGroup":12},{"signal":"POS_ACT","mainGroup":4,"middleGroup":4,"subGroup":13},{"signal":"ERR_ACT","mainGroup":4,"middleGroup":4,"subGroup":14}]}]},{"roomType":1,"line":[2],"roomName":"266.1","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6003","plcTag":"_5640_002_RMA6003","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":0},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":1},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":2},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":0},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":0}]},{"type":"KAB","tfmTag":"=5640.002-KAB6026","plcTag":"_5640_002_KAB6026","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":63},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":64},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":65}]}]},{"roomType":1,"line":[2],"roomName":"266.2","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6006","plcTag":"_5640_002_RMA6006","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":6},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":7},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":8},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":2},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":2}]},{"type":"KAB","tfmTag":"=5640.002-KAB6018","plcTag":"_5640_002_KAB6018","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":51},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":52},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":53}]},{"type":"KAB","tfmTag":"=5640.002-KAB6019","plcTag":"_5640_002_KAB6019","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":54},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":55},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":56}]}]},{"roomType":1,"line":[2],"roomName":"266.3","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6007","plcTag":"_5640_002_RMA6007","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":9},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":10},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":11},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":3},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":3}]},{"type":"RBB","tfmTag":"=5640.002-RBB6008","plcTag":"_5640_002_RBB6008","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":42},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":43},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":44},{"signal":"EXT_HVAC","mainGroup":2,"middleGroup":0,"subGroup":45}]},{"type":"KAB","tfmTag":"=5640.002-KAB6015","plcTag":"_5640_002_KAB6015","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":42},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":43},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":44}]},{"type":"KAB","tfmTag":"=5640.002-KAB6016","plcTag":"_5640_002_KAB6016","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":45},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":46},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":47}]},{"type":"KAB","tfmTag":"=5640.002-KAB6017","plcTag":"_5640_002_KAB6017","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":48},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":49},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":50}]}]},{"roomType":1,"line":[2],"roomName":"266.4","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6010","plcTag":"_5640_002_RMA6010","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":12},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":13},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":14},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":4},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":4}]},{"type":"RMA","tfmTag":"=5640.002-RMA6011","plcTag":"_5640_002_RMA6011","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":15},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":16},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":17},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":5},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":5}]},{"type":"KAB","tfmTag":"=5640.002-KAB6012","plcTag":"_5640_002_KAB6012","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":33},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":34},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":35}]},{"type":"KAB","tfmTag":"=5640.002-KAB6013","plcTag":"_5640_002_KAB6013","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":36},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":37},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":38}]},{"type":"KAB","tfmTag":"=5640.002-KAB6014","plcTag":"_5640_002_KAB6014","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":39},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":40},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":41}]}]},{"roomType":1,"line":[2],"roomName":"266.5","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6012","plcTag":"_5640_002_RMA6012","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":18},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":19},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":20},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":6},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":6}]},{"type":"KAB","tfmTag":"=5640.002-KAB6009","plcTag":"_5640_002_KAB6009","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":24},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":25},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":26}]},{"type":"KAB","tfmTag":"=5640.002-KAB6010","plcTag":"_5640_002_KAB6010","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":27},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":28},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":29}]},{"type":"KAB","tfmTag":"=5640.002-KAB6011","plcTag":"_5640_002_KAB6011","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":30},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":31},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":32}]}]},{"roomType":1,"line":[2],"roomName":"266.6","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6018","plcTag":"_5640_002_RMA6018","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":27},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":28},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":29},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":9},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":9}]},{"type":"RMA","tfmTag":"=5640.002-RMA6019","plcTag":"_5640_002_RMA6019","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":30},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":31},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":32},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":10},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":10}]},{"type":"KAB","tfmTag":"=5640.002-KAB6006","plcTag":"_5640_002_KAB6006","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":15},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":16},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":17}]},{"type":"KAB","tfmTag":"=5640.002-KAB6007","plcTag":"_5640_002_KAB6007","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":18},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":19},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":20}]},{"type":"KAB","tfmTag":"=5640.002-KAB6008","plcTag":"_5640_002_KAB6008","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":21},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":22},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":23}]}]},{"roomType":1,"line":[2],"roomName":"266.7","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6021","plcTag":"_5640_002_RMA6021","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":36},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":37},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":38},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":12},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":12}]},{"type":"KAB","tfmTag":"=5640.002-KAB6002","plcTag":"_5640_002_KAB6002","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":3},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":4},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":5}]},{"type":"KAB","tfmTag":"=5640.002-KAB6003","plcTag":"_5640_002_KAB6003","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":6},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":7},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":8}]},{"type":"KAB","tfmTag":"=5640.002-KAB6004","plcTag":"_5640_002_KAB6004","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":9},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":10},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":11}]},{"type":"KAB","tfmTag":"=5640.002-KAB6005","plcTag":"_5640_002_KAB6005","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":12},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":13},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":14}]}]},{"roomType":1,"line":[4],"roomName":"275","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6029","plcTag":"_5640_002_RMA6029","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":0},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":1},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":2},{"signal":"TMP_ACT","mainGroup":4,"middleGroup":2,"subGroup":0},{"signal":"CO2_ACT","mainGroup":4,"middleGroup":3,"subGroup":0}]}]},{"roomType":3,"line":[3],"roomName":"278","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6001","plcTag":"_5640_002_RBB6001","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":19},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":20},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":21}]}]},{"roomType":3,"line":[3],"roomName":"279","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6046","plcTag":"_5640_002_RBB6046","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":22},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":23},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":24}]}]},{"roomType":3,"line":[4],"roomName":"280","components":[{"type":"RBB","tfmTag":"=5640.002-RBB6045","plcTag":"_5640_002_RBB6045","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":4,"middleGroup":0,"subGroup":45},{"signal":"HVAC_ACT","mainGroup":4,"middleGroup":0,"subGroup":46},{"signal":"EXT","mainGroup":4,"middleGroup":0,"subGroup":47}]}]},{"roomType":3,"line":[3],"roomName":"281","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6050","plcTag":"_5640_002_RMA6050","bacnetTags":[],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":25},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":26},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":27},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":5},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":5}]}]},{"roomType":1,"line":[2],"roomName":"282","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6005","plcTag":"_5640_002_RMA6005","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":3},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":4},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":5},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":1},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":1}]},{"type":"KAB","tfmTag":"=5640.002-KAB6025","plcTag":"_5640_002_KAB6025","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":60},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":61},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":62}]}]},{"roomType":1,"line":[3],"roomName":"283","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6009","plcTag":"_5640_002_RMA6009","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":3},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":4},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":5},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":1},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":1}]},{"type":"KAB","tfmTag":"=5640.002-KAB6024","plcTag":"_5640_002_KAB6024","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":3,"middleGroup":4,"subGroup":9},{"signal":"POS_ACT","mainGroup":3,"middleGroup":4,"subGroup":10},{"signal":"ERR_ACT","mainGroup":3,"middleGroup":4,"subGroup":11}]}]},{"roomType":1,"line":[2],"roomName":"284","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6013","plcTag":"_5640_002_RMA6013","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":21},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":22},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":23},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":7},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":7}]},{"type":"RMA","tfmTag":"=5640.002-RMA6015","plcTag":"_5640_002_RMA6015","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":6},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":7},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":8},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":2},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":2}]},{"type":"KAB","tfmTag":"=5640.002-KAB6023","plcTag":"_5640_002_KAB6023","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":3,"middleGroup":4,"subGroup":6},{"signal":"POS_ACT","mainGroup":3,"middleGroup":4,"subGroup":7},{"signal":"ERR_ACT","mainGroup":3,"middleGroup":4,"subGroup":8}]}]},{"roomType":1,"line":[2],"roomName":"285","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6014","plcTag":"_5640_002_RMA6014","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":24},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":25},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":26},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":8},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":8}]},{"type":"RMA","tfmTag":"=5640.002-RMA6016","plcTag":"_5640_002_RMA6016","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":9},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":10},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":11},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":3},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":3}]},{"type":"KAB","tfmTag":"=5640.002-KAB6022","plcTag":"_5640_002_KAB6022","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":3,"middleGroup":4,"subGroup":3},{"signal":"POS_ACT","mainGroup":3,"middleGroup":4,"subGroup":4},{"signal":"ERR_ACT","mainGroup":3,"middleGroup":4,"subGroup":5}]}]},{"roomType":1,"line":[3],"roomName":"286","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6017","plcTag":"_5640_002_RMA6017","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":3,"middleGroup":0,"subGroup":12},{"signal":"HVAC_ACT","mainGroup":3,"middleGroup":0,"subGroup":13},{"signal":"EXT","mainGroup":3,"middleGroup":0,"subGroup":14},{"signal":"TMP_ACT","mainGroup":3,"middleGroup":2,"subGroup":4},{"signal":"CO2_ACT","mainGroup":3,"middleGroup":3,"subGroup":4}]},{"type":"KAB","tfmTag":"=5640.002-KAB6021","plcTag":"_5640_002_KAB6021","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":3,"middleGroup":4,"subGroup":0},{"signal":"POS_ACT","mainGroup":3,"middleGroup":4,"subGroup":1},{"signal":"ERR_ACT","mainGroup":3,"middleGroup":4,"subGroup":2}]}]},{"roomType":1,"line":[2],"roomName":"287","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6020","plcTag":"_5640_002_RMA6020","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":33},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":34},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":35},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":11},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":11}]},{"type":"KAB","tfmTag":"=5640.002-KAB6020","plcTag":"_5640_002_KAB6020","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":57},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":58},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":59}]}]},{"roomType":1,"line":[2],"roomName":"288","components":[{"type":"RMA","tfmTag":"=5640.002-RMA6023","plcTag":"_5640_002_RMA6023","bacnetTags":["SPV","SPV_Komf","SPV_Stdb","SPV_Natt","TMP_ACT"],"knxSignals":[{"signal":"MOV_ACT","mainGroup":2,"middleGroup":0,"subGroup":39},{"signal":"HVAC_ACT","mainGroup":2,"middleGroup":0,"subGroup":40},{"signal":"EXT","mainGroup":2,"middleGroup":0,"subGroup":41},{"signal":"TMP_ACT","mainGroup":2,"middleGroup":2,"subGroup":13},{"signal":"CO2_ACT","mainGroup":2,"middleGroup":3,"subGroup":13}]},{"type":"KAB","tfmTag":"=5640.002-KAB6001","plcTag":"_5640_002_KAB6001","bacnetTags":[],"knxSignals":[{"signal":"CV","mainGroup":2,"middleGroup":5,"subGroup":0},{"signal":"POS_ACT","mainGroup":2,"middleGroup":5,"subGroup":1},{"signal":"ERR_ACT","mainGroup":2,"middleGroup":5,"subGroup":2}]}]}]}
+{
+	"rooms": [
+		{
+			"roomType": 3,
+			"line": [2],
+			"roomName": "201",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6026",
+					"plcTag": "_5640_002_RBB6026",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 46
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 47
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 48
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6027",
+					"plcTag": "_5640_002_RBB6027",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 49
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 50
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 51
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6028",
+					"plcTag": "_5640_002_RBB6028",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 52
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 53
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 54
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6024",
+					"plcTag": "_5640_002_RMA6024",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 203
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 204
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 205
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6004",
+					"plcTag": "_5640_002_RBB6004",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 15
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 16
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 17
+						},
+						{
+							"signal": "HVAC_EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 18
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [4],
+			"roomName": "202",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6030",
+					"plcTag": "_5640_002_RBB6030",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 30
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 31
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 32
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [4],
+			"roomName": "203",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6034",
+					"plcTag": "_5640_002_RBB6034",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 33
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 34
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 35
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6037",
+					"plcTag": "_5640_002_RBB6037",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 39
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 40
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 41
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6048",
+					"plcTag": "_5640_002_RBB6048",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 48
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 49
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 50
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6044",
+					"plcTag": "_5640_002_RBB6044",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 51
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 52
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 53
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [3],
+			"roomName": "206",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6002",
+					"plcTag": "_5640_002_RMA6002",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 0
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 1
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 2
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 0
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "233",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6043",
+					"plcTag": "_5640_002_RMA6043",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 42
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 43
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 44
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 12
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 12
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "234",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6041",
+					"plcTag": "_5640_002_RMA6041",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 24
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 25
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 26
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 8
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 8
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6042",
+					"plcTag": "_5640_002_RMA6042",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 27
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 28
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 29
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 9
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 9
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "235",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6040",
+					"plcTag": "_5640_002_RMA6040",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 21
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 22
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 23
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 7
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 7
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6028",
+					"plcTag": "_5640_002_KAB6028",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 4, "middleGroup": 4, "subGroup": 3 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 4
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "236",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6039",
+					"plcTag": "_5640_002_RMA6039",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 18
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 19
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 20
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 6
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 6
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6029",
+					"plcTag": "_5640_002_KAB6029",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 4, "middleGroup": 4, "subGroup": 6 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 7
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 8
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "238",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6038",
+					"plcTag": "_5640_002_RMA6038",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 15
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 16
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 17
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 5
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 5
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6030",
+					"plcTag": "_5640_002_KAB6030",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 4, "middleGroup": 4, "subGroup": 9 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 10
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 11
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 2,
+			"line": [4],
+			"roomName": "240",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6049",
+					"plcTag": "_5640_002_RMA6049",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 36
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 37
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 38
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 11
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 11
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6032",
+					"plcTag": "_5640_002_KAB6032",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 15
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 16
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 17
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "241",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6036",
+					"plcTag": "_5640_002_RMA6036",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 54
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 55
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 56
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 10
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 10
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6035",
+					"plcTag": "_5640_002_KAB6035",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 24
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 25
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 26
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "243",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6035",
+					"plcTag": "_5640_002_RMA6035",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 12
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 13
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 14
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 4
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 4
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6034",
+					"plcTag": "_5640_002_KAB6034",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 21
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 22
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 23
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "245",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6032",
+					"plcTag": "_5640_002_RMA6032",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 6
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 7
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 8
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 2
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 2
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6033",
+					"plcTag": "_5640_002_RMA6033",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 9
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 10
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 11
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 3
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 3
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6033",
+					"plcTag": "_5640_002_KAB6033",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 18
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 19
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "246",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6031",
+					"plcTag": "_5640_002_RMA6031",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 3
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 4
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 5
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 1
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 1
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6027",
+					"plcTag": "_5640_002_KAB6027",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 4, "middleGroup": 4, "subGroup": 0 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 1
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "253",
+			"components": [
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6031",
+					"plcTag": "_5640_002_KAB6031",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 12
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 13
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 4,
+							"middleGroup": 4,
+							"subGroup": 14
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.1",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6003",
+					"plcTag": "_5640_002_RMA6003",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 0
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 1
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 2
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 0
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 0
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6026",
+					"plcTag": "_5640_002_KAB6026",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 63
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 64
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 65
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.2",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6006",
+					"plcTag": "_5640_002_RMA6006",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 6
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 7
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 8
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 2
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 2
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6018",
+					"plcTag": "_5640_002_KAB6018",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 51
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 52
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 53
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6019",
+					"plcTag": "_5640_002_KAB6019",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 54
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 55
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 56
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.3",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6007",
+					"plcTag": "_5640_002_RMA6007",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 9
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 10
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 11
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 3
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 3
+						}
+					]
+				},
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6008",
+					"plcTag": "_5640_002_RBB6008",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 42
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 43
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 44
+						},
+						{
+							"signal": "EXT_HVAC",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 45
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6015",
+					"plcTag": "_5640_002_KAB6015",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 42
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 43
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 44
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6016",
+					"plcTag": "_5640_002_KAB6016",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 45
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 46
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 47
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6017",
+					"plcTag": "_5640_002_KAB6017",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 48
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 49
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 50
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.4",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6010",
+					"plcTag": "_5640_002_RMA6010",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 12
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 13
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 14
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 4
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 4
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6011",
+					"plcTag": "_5640_002_RMA6011",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 15
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 16
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 17
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 5
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 5
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6012",
+					"plcTag": "_5640_002_KAB6012",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 33
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 34
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 35
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6013",
+					"plcTag": "_5640_002_KAB6013",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 36
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 37
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 38
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6014",
+					"plcTag": "_5640_002_KAB6014",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 39
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 40
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 41
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.5",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6012",
+					"plcTag": "_5640_002_RMA6012",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 18
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 19
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 20
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 6
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 6
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6009",
+					"plcTag": "_5640_002_KAB6009",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 24
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 25
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 26
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6010",
+					"plcTag": "_5640_002_KAB6010",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 27
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 28
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 29
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6011",
+					"plcTag": "_5640_002_KAB6011",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 30
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 31
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 32
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.6",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6018",
+					"plcTag": "_5640_002_RMA6018",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 27
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 28
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 29
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 9
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 9
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6019",
+					"plcTag": "_5640_002_RMA6019",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 30
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 31
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 32
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 10
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 10
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6006",
+					"plcTag": "_5640_002_KAB6006",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 15
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 16
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 17
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6007",
+					"plcTag": "_5640_002_KAB6007",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 18
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 19
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 20
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6008",
+					"plcTag": "_5640_002_KAB6008",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 21
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 22
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 23
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "266.7",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6021",
+					"plcTag": "_5640_002_RMA6021",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 36
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 37
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 38
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 12
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 12
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6002",
+					"plcTag": "_5640_002_KAB6002",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 2, "middleGroup": 5, "subGroup": 3 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 4
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 5
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6003",
+					"plcTag": "_5640_002_KAB6003",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 2, "middleGroup": 5, "subGroup": 6 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 7
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 8
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6004",
+					"plcTag": "_5640_002_KAB6004",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 2, "middleGroup": 5, "subGroup": 9 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 10
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 11
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6005",
+					"plcTag": "_5640_002_KAB6005",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 12
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 13
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 14
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [4],
+			"roomName": "275",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6029",
+					"plcTag": "_5640_002_RMA6029",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 0
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 1
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 2
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 4,
+							"middleGroup": 2,
+							"subGroup": 0
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 4,
+							"middleGroup": 3,
+							"subGroup": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [3],
+			"roomName": "278",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6001",
+					"plcTag": "_5640_002_RBB6001",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 19
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 20
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 21
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [3],
+			"roomName": "279",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6046",
+					"plcTag": "_5640_002_RBB6046",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 22
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 23
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 24
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [4],
+			"roomName": "280",
+			"components": [
+				{
+					"type": "RBB",
+					"tfmTag": "=5640.002-RBB6045",
+					"plcTag": "_5640_002_RBB6045",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 45
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 46
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 4,
+							"middleGroup": 0,
+							"subGroup": 47
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 3,
+			"line": [3],
+			"roomName": "281",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6050",
+					"plcTag": "_5640_002_RMA6050",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 25
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 26
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 27
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 5
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "282",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6005",
+					"plcTag": "_5640_002_RMA6005",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 3
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 4
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 5
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 1
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 1
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6025",
+					"plcTag": "_5640_002_KAB6025",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 60
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 61
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 62
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [3],
+			"roomName": "283",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6009",
+					"plcTag": "_5640_002_RMA6009",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 3
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 4
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 5
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 1
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 1
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6024",
+					"plcTag": "_5640_002_KAB6024",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 3, "middleGroup": 4, "subGroup": 9 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 10
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 11
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "284",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6013",
+					"plcTag": "_5640_002_RMA6013",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 21
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 22
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 23
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 7
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 7
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6015",
+					"plcTag": "_5640_002_RMA6015",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 6
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 7
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 8
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 2
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 2
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6023",
+					"plcTag": "_5640_002_KAB6023",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 3, "middleGroup": 4, "subGroup": 6 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 7
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 8
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "285",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6014",
+					"plcTag": "_5640_002_RMA6014",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 24
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 25
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 26
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 8
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 8
+						}
+					]
+				},
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6016",
+					"plcTag": "_5640_002_RMA6016",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 9
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 10
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 11
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 3
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 3
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6022",
+					"plcTag": "_5640_002_KAB6022",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 3, "middleGroup": 4, "subGroup": 3 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 4
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [3],
+			"roomName": "286",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6017",
+					"plcTag": "_5640_002_RMA6017",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 12
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 13
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 3,
+							"middleGroup": 0,
+							"subGroup": 14
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 3,
+							"middleGroup": 2,
+							"subGroup": 4
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 3,
+							"middleGroup": 3,
+							"subGroup": 4
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6021",
+					"plcTag": "_5640_002_KAB6021",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 3, "middleGroup": 4, "subGroup": 0 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 1
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 3,
+							"middleGroup": 4,
+							"subGroup": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "287",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6020",
+					"plcTag": "_5640_002_RMA6020",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 33
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 34
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 35
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 11
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 11
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6020",
+					"plcTag": "_5640_002_KAB6020",
+					"bacnetTags": [],
+					"knxSignals": [
+						{
+							"signal": "CV",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 57
+						},
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 58
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 59
+						}
+					]
+				}
+			]
+		},
+		{
+			"roomType": 1,
+			"line": [2],
+			"roomName": "288",
+			"components": [
+				{
+					"type": "RMA",
+					"tfmTag": "=5640.002-RMA6023",
+					"plcTag": "_5640_002_RMA6023",
+					"bacnetTags": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"knxSignals": [
+						{
+							"signal": "MOV_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 39
+						},
+						{
+							"signal": "HVAC_ACT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 40
+						},
+						{
+							"signal": "EXT",
+							"mainGroup": 2,
+							"middleGroup": 0,
+							"subGroup": 41
+						},
+						{
+							"signal": "TMP_ACT",
+							"mainGroup": 2,
+							"middleGroup": 2,
+							"subGroup": 13
+						},
+						{
+							"signal": "CO2_ACT",
+							"mainGroup": 2,
+							"middleGroup": 3,
+							"subGroup": 13
+						}
+					]
+				},
+				{
+					"type": "KAB",
+					"tfmTag": "=5640.002-KAB6001",
+					"plcTag": "_5640_002_KAB6001",
+					"bacnetTags": [],
+					"knxSignals": [
+						{ "signal": "CV", "mainGroup": 2, "middleGroup": 5, "subGroup": 0 },
+						{
+							"signal": "POS_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 1
+						},
+						{
+							"signal": "ERR_ACT",
+							"mainGroup": 2,
+							"middleGroup": 5,
+							"subGroup": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

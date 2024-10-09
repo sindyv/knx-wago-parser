@@ -15,13 +15,19 @@
 		{ "signalName": "CV", "signalType": "FbDPT_Scaling_pro" },
 		{ "signalName": "POS_ACT", "signalType": "FbDPT_Scaling_pro" }
 	],
+
 	"roomTypes": [
 		{
 			"type": 1,
 			"components": [
 				{
 					"type": "RMA",
-					"bacnetVars": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"]
+					"bacnetVars": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
+					"bacnetMappings": [
+						{
+							"SPV": "typClimateControllerRoom{{room.roomName}}.actuators.heating.setpoint"
+						}
+					]
 				}
 			]
 		},

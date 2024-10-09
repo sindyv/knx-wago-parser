@@ -6,7 +6,7 @@ const writeXml = require("./src/xml/writeXML")
 
 // Hent diverse moduler
 const createKnx = require("./src/knx/createKnx")
-const createBacnet = require("./src/bacnet/createBacnet")
+const createBacnetGvl = require("./src/bacnet/createBacnetGvl")
 
 // Hent modul for å lese excel
 const reader = require("xlsx")
@@ -52,5 +52,5 @@ try {
 writeXml.header()
 createKnx(knxLines)
 writeXml.middle()
-createBacnet()
+createBacnetGvl()
 writeXml.footer()

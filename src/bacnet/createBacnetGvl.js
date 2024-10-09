@@ -31,10 +31,11 @@ module.exports = () => {
 
 							const index = indexes[bacnetVar.type]
 
-							let initData = `\n`
+							let initData = ``
 
 							// Sjekk om BACnet-tagget har egen config
 							if (bacnetVar.hasOwnProperty("config")) {
+								initData = `\n`
 								bacnetVar?.config.forEach((config, index) => {
 									if (index === bacnetVar.config.length - 1) {
 										initData += `               ${config} \n`
@@ -60,49 +61,6 @@ module.exports = () => {
 			}
 		})
 	})
-
-	// component.signals.forEach((signal) => {
-	// 	//
-	// 	config.variablesTypesList.forEach((variableType) => {
-	// 		if (signal.signal === variableType.signalName) {
-	// 			//Sjekk om signalet har  BACnet-tags
-	// 			if (variableType.hasOwnProperty("bacnetVars")) {
-	// 				// Gå igjennom alle BACnet-tags
-	// 				variableType.bacnetVars.forEach((bacnetVar) => {
-	// 					// Definer parametre
-	// 					const name = `${config.bacnetTagPrefix}${component.plcTag}_${
-	// 						bacnetVar.name
-	// 					}_R0${room.roomName.replace(".", "_")}`
-	// 					const index = indexes[bacnetVar.type]
-	// 					let initData = `\n`
-
-	// 					// Sjekk om BACnet-tagget har egen config
-	// 					if (bacnetVar.hasOwnProperty("config")) {
-	// 						bacnetVar?.config.forEach((config, index) => {
-	// 							if (index === bacnetVar.config.length - 1) {
-	// 								initData += `               ${config} \n`
-	// 							} else {
-	// 								initData += `               ${config}, \n`
-	// 							}
-	// 						})
-	// 					}
-
-	// 					// Definer codesys-deklarasjonen
-	// 					const type = `${bacnetVar.type}_${bacnetVar.size} (${index}) ${
-	// 						initData !== "" ? `:= (${initData}         )` : ""
-	// 					}`
-
-	// 					// Skriv variabel til XML-filen
-	// 					writeXML.globalvarsVar(name, type)
-
-	// 					// Inkrementer indexen for den aktuelle BACnet-typen
-	// 					indexes[bacnetVar.type] += 1
-	// 				})
-	// 			}
-	// 		}
-	// 	})
-	// })
-	// })
 
 	// skriv GVL-footer
 	writeXML.globalvarsFooter()
