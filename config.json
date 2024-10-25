@@ -1,7 +1,11 @@
 {
 	"xmlExportFileName": "./output/export.xml",
-	"bacnetTagPrefix": "C",
-	"tfmComponentCodeLength": 3,
+	"climatePouNamePrefix": "ClimateControl_",
+	"tagSystem": "564",
+	"tagNumber": "{{roomName}}",
+	"bacnetTagPrefix": "_",
+	"bacnetTagRoomPrefix": "Room_",
+	"tfmComponentCodeLength": 2,
 	"variablesTypesList": [
 		{
 			"signalName": "TMP_ACT",
@@ -9,7 +13,7 @@
 		},
 		{
 			"signalName": "MOV_ACT",
-			"signalType": "FbDPT_Value_Switch_pro"
+			"signalType": "FbDPT_Switch_pro"
 		},
 		{ "signalName": "CO2_ACT", "signalType": "FbDPT_Value_AirQuality_pro" },
 		{ "signalName": "CV", "signalType": "FbDPT_Scaling_pro" },
@@ -21,24 +25,116 @@
 			"type": 1,
 			"components": [
 				{
-					"type": "RMA",
-					"bacnetVars": ["SPV", "SPV_Komf", "SPV_Stdb", "SPV_Natt", "TMP_ACT"],
-					"bacnetMappings": [
-						{
-							"SPV": "typClimateControllerRoom{{room.roomName}}.actuators.heating.setpoint"
-						}
+					"type": "RT",
+					"suffix": "601",
+					"bacnetVars": [
+						"SPV",
+						"SPV_Komf",
+						"SPV_Stdb",
+						"SPV_Natt",
+						"SPC",
+						"SPC_Komf",
+						"SPC_Stdb",
+						"SPC_Natt",
+						"MV",
+						"KMD_MSV",
+						"MOD_FB"
 					]
+				},
+				{
+					"type": "RB",
+					"suffix": "601",
+					"bacnetVars": ["D"]
+				},
+				{
+					"type": "LH",
+					"suffix": "601",
+					"bacnetVars": ["C"]
+				},
+				{
+					"type": "RY",
+					"suffix": "601",
+					"bacnetVars": ["SP", "MV"]
+				},
+				{
+					"type": "SQ",
+					"suffix": "601",
+					"bacnetVars": ["CO2_C", "KJL_C"]
 				}
 			]
 		},
 		{
 			"type": 2,
-			"bacnetVars": ["TMP_ACT"]
+			"components": [
+				{
+					"type": "RT",
+					"suffix": "601",
+					"bacnetVars": [
+						"SPV",
+						"SPV_Komf",
+						"SPV_Stdb",
+						"SPV_Natt",
+						"SPC",
+						"SPC_Komf",
+						"SPC_Stdb",
+						"SPC_Natt",
+						"MV",
+						"KMD_MSV",
+						"MOD_FB"
+					]
+				},
+				{
+					"type": "RB",
+					"suffix": "601",
+					"bacnetVars": ["D"]
+				},
+				{
+					"type": "LH",
+					"suffix": "601",
+					"bacnetVars": ["C"]
+				},
+				{
+					"type": "SQ",
+					"suffix": "x01",
+					"bacnetVars": ["KJL_C"]
+				}
+			]
+		},
+		{
+			"type": 3,
+			"components": [
+				{
+					"type": "RT",
+					"suffix": "601",
+					"bacnetVars": ["MV"]
+				},
+				{
+					"type": "RB",
+					"suffix": "601",
+					"bacnetVars": ["D"]
+				}
+			]
+		},
+		{
+			"type": 4,
+			"components": [
+				{
+					"type": "RT",
+					"suffix": "601",
+					"bacnetVars": ["SPV", "SPV_Komf", "MV"]
+				},
+				{
+					"type": "LH",
+					"suffix": "601",
+					"bacnetVars": ["C"]
+				}
+			]
 		}
 	],
 	"bacnetVars": [
 		{
 			"name": "SPV",
+			"component": "RT",
 			"type": "FbAnalogValue",
 			"size": "Medium",
 			"config": [
@@ -49,6 +145,7 @@
 		},
 		{
 			"name": "SPV_Komf",
+			"component": "RT",
 			"type": "FbAnalogValue",
 			"size": "Medium",
 			"config": [
@@ -59,6 +156,7 @@
 		},
 		{
 			"name": "SPV_Stdb",
+			"component": "RT",
 			"type": "FbAnalogValue",
 			"size": "Medium",
 			"config": [
@@ -69,12 +167,185 @@
 		},
 		{
 			"name": "SPV_Natt",
+			"component": "RT",
 			"type": "FbAnalogValue",
 			"size": "Medium",
 			"config": [
 				"_sDescription := 'Settpunkt Natt'",
 				"_rCov_Increment := 0.1",
 				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPC",
+			"component": "RT",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Arbeidende settpunkt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPC_Komf",
+			"component": "RT",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt komfort kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPC_Stdb",
+			"component": "RT",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt Standby kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "SPC_Natt",
+			"component": "RT",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt Natt kjøling'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C"
+			]
+		},
+		{
+			"name": "C",
+			"component": "LH",
+			"type": "FbAnalogOutput",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Pådrag varmeovn'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			]
+		},
+		{
+			"name": "SP",
+			"component": "RY",
+			"type": "FbAnalogValue",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Settpunkt'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION"
+			]
+		},
+		{
+			"name": "MV",
+			"component": "RT",
+			"type": "FbAnalogInput",
+			"size": "Large",
+			"config": [
+				"_sDescription := 'Målt temperatur'",
+				"_rCov_Increment := 0.1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_DEGREES_C",
+				"_rHighLimit := 28",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			]
+		},
+		{
+			"name": "MOD_FB",
+			"component": "RT",
+			"type": "FbMultiStateValue",
+			"size": "Large",
+			"config": [
+				"_sDescription := 'Tilbakemelding driftmodus'",
+				"_udiNumberOfStates := 5",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99",
+				"_xEventDetectionEnable := FALSE"
+			],
+			"stateTexts": [
+				"Frostbeskyttelse",
+				"Økonomi",
+				"Standby",
+				"Komfort",
+				"Nattkjøling"
+			]
+		},
+		{
+			"name": "KMD_MSV",
+			"component": "RT",
+			"type": "FbMultiStateValue",
+			"size": "Large",
+			"config": [
+				"_sDescription := 'Kalender'",
+				"_udiNumberOfStates := 10",
+				"_xEventDetectionEnable := FALSE",
+				"_udiNotificationClass := 99",
+				"_xEventDetectionEnable := FALSE"
+			],
+			"stateTexts": [
+				"Kalender 1",
+				"Kalender 2",
+				"Kalender 3",
+				"Kalender 4",
+				"Kalender 5",
+				"Kalender 6",
+				"Kalender 7",
+				"Kalender 8",
+				"Kalender 9",
+				"Kalender 10"
+			]
+		},
+		{
+			"name": "MV",
+			"component": "RY",
+			"type": "FbAnalogInput",
+			"size": "Large",
+			"config": [
+				"_sDescription := 'Målt CO2-konsentrasjon'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PARTS_PER_MILLION",
+				"_rHighLimit := 1000",
+				"_ILimitEnable := ( xLowLimitReporting := FALSE, xHighLimitReporting := TRUE )",
+				"_udiNotificationClass := 22"
+			]
+		},
+		{
+			"name": "CO2_C",
+			"component": "SQ",
+			"type": "FbAnalogOutput",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Pådrag VAV fra luftkvalitetsregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			]
+		},
+		{
+			"name": "KJL_C",
+			"component": "SQ",
+			"type": "FbAnalogOutput",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_rCov_Increment := 1",
+				"_eUnits := WagoTypesBacnet.eBACnetUnits.UNIT_PERCENT"
+			]
+		},
+		{
+			"name": "D",
+			"component": "RB",
+			"type": "FbBinaryOutput",
+			"size": "Medium",
+			"config": [
+				"_sDescription := 'Pådrag VAV fra kjøleregulator'",
+				"_sActiveText := 'Tilstedeværelse'",
+				"_sInactiveText := 'Ingen tilstedeværelse'"
 			]
 		}
 	]
